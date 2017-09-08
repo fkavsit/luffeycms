@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17, 15.5" name="LuffeyCMS">
+  <DataContextMoniker Name="/LuffeyCMSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6706725c-dbb4-4d43-b31b-a46640706425" absoluteBounds="0.75, 10.75, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Company" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e464631-e2ac-43af-b670-236d58a88849" absoluteBounds="0.765, 11.21, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c48d8717-377a-4acb-b1c2-da9e69b1e77c" absoluteBounds="11.75, 4.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Statistic" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b22701a0-d793-42b5-9933-117ab7bd42ca" absoluteBounds="11.765, 5.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6e499846-1b7d-4091-a7e2-f22ac96fcaed" absoluteBounds="3.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cadeb3f7-804a-4b9f-9a04-0ec132fdb880" absoluteBounds="3.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c190475-66a6-4a2d-be3b-2a9f4acb54d3" absoluteBounds="6.75, 12.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Library" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c2b1544-4fb6-4a21-8537-8c77ecce4b89" absoluteBounds="6.765, 13.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f97ebb9-4eb4-479d-aec3-23e38bca5357" absoluteBounds="9.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Mail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a8172acb-f44a-437e-ba70-a940e41fde09" absoluteBounds="9.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4107365d-9fd7-4135-af2f-5d5b5fcadd42" absoluteBounds="11.5, 8, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Member" />
+      <nestedChildShapes>
+        <elementListCompartment Id="321db17e-8679-4d88-91e8-a75711b6adb7" absoluteBounds="11.515, 8.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6113795f-2436-434d-91e6-4fa9ba7042ce" absoluteBounds="8.75, 9, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/MemberType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="101c0b49-91fe-4ae8-ab42-d44144580296" absoluteBounds="8.765, 9.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="924d2676-44ae-4569-999e-1f03e47a9f72" absoluteBounds="0.75, 7.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb61c267-2503-4e36-9b62-79c92ad76b05" absoluteBounds="0.765, 8.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b79d665-8b5f-47a5-8eb2-143446b51f0c" absoluteBounds="9.5, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5e328cb-66f4-4d4d-8d2f-455b4b65bf18" absoluteBounds="9.515, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2c1d44d0-5bc8-4774-a40a-2f16e8b6590e" absoluteBounds="6.75, 1.625, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/News_Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12ee82d3-a8ec-47f0-9038-64ff208e48ce" absoluteBounds="6.765, 2.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a7fd958b-07d8-4350-ad4f-a008fc510f2a" absoluteBounds="12.25, 1.5, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/NewsComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e2dbe5a1-ac97-4eb3-85c9-9ff28f87e16c" absoluteBounds="12.265, 1.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9eb6cd05-8eb5-4fc4-a776-0d5c2b4337d2" absoluteBounds="12.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Page" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6941eb93-ffc2-49d6-b1f1-e9e3bca250af" absoluteBounds="12.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="02ab54b4-4632-4eaa-865d-187385af0443" absoluteBounds="3.5, 4, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc22580d-3b13-4b5b-8779-6e1c97e49b46" absoluteBounds="3.515, 4.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6a4dc620-87e4-4936-a5df-c02f641ff767" absoluteBounds="9, 5.625, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Product_ProductCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a897cb31-d7a9-4a91-87c6-4deb11a21512" absoluteBounds="9.015, 6.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="999e3415-51b1-47f4-a0ca-85df2bc361f5" absoluteBounds="6.25, 4.75, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Product_ProductImage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="568240b0-9416-49fe-a05e-cf72de531929" absoluteBounds="6.265, 5.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a2376fc0-6694-4298-b3f6-c6e316b1ea79" absoluteBounds="6.25, 7.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/ProductCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6bd1c7a-c094-4ea3-ae5c-57fab233738c" absoluteBounds="6.265, 7.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3bd30f4-1a10-48ad-b382-794509154ca6" absoluteBounds="6.25, 9.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/ProductComment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4d524bd6-3173-43d9-927a-fe7afec656e5" absoluteBounds="6.265, 9.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38d0eea8-3aaa-4cba-a12e-931cf79422d2" absoluteBounds="3.5, 1.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/ProductImage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84617b96-7185-445c-a093-23c9821b035a" absoluteBounds="3.515, 1.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="28eb7a73-dff1-40cf-93b9-78b095535348" absoluteBounds="0.75, 4.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/ProductPayment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="033f0079-699b-4ebf-8039-8555a350f4ba" absoluteBounds="0.765, 5.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5b3ea2a-9a77-4047-86ef-4a37375fefb6" absoluteBounds="14.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Seo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="950f6a1a-fd76-4fe5-95f4-705f1c061300" absoluteBounds="14.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2117b9d3-b467-49e7-a0c2-1183975b93d5" absoluteBounds="14.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/LuffeyCMSDataContext/Slider" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52498b32-aae9-4f35-a31e-f46668e525ee" absoluteBounds="14.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.75 : 9.59699625651042); (11.5 : 9.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/MemberType/MemberType_Member" />
+      <nodes>
+        <classShapeMoniker Id="6113795f-2436-434d-91e6-4fa9ba7042ce" />
+        <classShapeMoniker Id="4107365d-9fd7-4135-af2f-5d5b5fcadd42" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.45552987154447 : 9.52089680989583); (1.45552987154447 : 9.77089680989583); (2.05849251552484 : 9.77089680989583); (2.05849251552484 : 9.52089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/Menu/Menu_Menu" />
+      <nodes>
+        <classShapeMoniker Id="924d2676-44ae-4569-999e-1f03e47a9f72" />
+        <classShapeMoniker Id="924d2676-44ae-4569-999e-1f03e47a9f72" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 2.31814697265625); (9.5 : 2.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/News_Category/News_Category_New" />
+      <nodes>
+        <classShapeMoniker Id="2c1d44d0-5bc8-4774-a40a-2f16e8b6590e" />
+        <classShapeMoniker Id="0b79d665-8b5f-47a5-8eb2-143446b51f0c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.44931705603966 : 3.0112939453125); (7.44931705603966 : 3.2612939453125); (8.06500117938702 : 3.2612939453125); (8.06500117938702 : 3.0112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/News_Category/News_Category_News_Category" />
+      <nodes>
+        <classShapeMoniker Id="2c1d44d0-5bc8-4774-a40a-2f16e8b6590e" />
+        <classShapeMoniker Id="2c1d44d0-5bc8-4774-a40a-2f16e8b6590e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 2.38544840494792); (12.25 : 2.38544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/New/New_NewsComment" />
+      <nodes>
+        <classShapeMoniker Id="0b79d665-8b5f-47a5-8eb2-143446b51f0c" />
+        <classShapeMoniker Id="a7fd958b-07d8-4350-ad4f-a008fc510f2a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 6.27329752604167); (9 : 6.27329752604167)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/Product/Product_Product_ProductCategory" />
+      <nodes>
+        <classShapeMoniker Id="02ab54b4-4632-4eaa-865d-187385af0443" />
+        <classShapeMoniker Id="6a4dc620-87e4-4936-a5df-c02f641ff767" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.34699625651042); (6.25 : 5.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/Product/Product_Product_ProductImage" />
+      <nodes>
+        <classShapeMoniker Id="02ab54b4-4632-4eaa-865d-187385af0443" />
+        <classShapeMoniker Id="999e3415-51b1-47f4-a0ca-85df2bc361f5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 7.81814697265625); (10 : 7.81814697265625); (10 : 6.81899251302083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/ProductCategory/ProductCategory_Product_ProductCategory" />
+      <nodes>
+        <classShapeMoniker Id="a2376fc0-6694-4298-b3f6-c6e316b1ea79" />
+        <classShapeMoniker Id="6a4dc620-87e4-4936-a5df-c02f641ff767" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 6.5401025390625); (4.5 : 7.81814697265625); (4.94791916666667 : 7.81814697265625 : JumpStart); (5.11458583333333 : 7.81814697265625 : JumpEnd); (6.25 : 7.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/Product/Product_ProductCategory" />
+      <nodes>
+        <classShapeMoniker Id="02ab54b4-4632-4eaa-865d-187385af0443" />
+        <classShapeMoniker Id="a2376fc0-6694-4298-b3f6-c6e316b1ea79" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.94931705603966 : 8.5112939453125); (6.94931705603966 : 8.7612939453125); (7.56500117938702 : 8.7612939453125); (7.56500117938702 : 8.5112939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/ProductCategory/ProductCategory_ProductCategory" />
+      <nodes>
+        <classShapeMoniker Id="a2376fc0-6694-4298-b3f6-c6e316b1ea79" />
+        <classShapeMoniker Id="a2376fc0-6694-4298-b3f6-c6e316b1ea79" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.0312525 : 6.5401025390625); (5.0312525 : 10.3277498372396); (6.25 : 10.3277498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/Product/Product_ProductComment" />
+      <nodes>
+        <classShapeMoniker Id="02ab54b4-4632-4eaa-865d-187385af0443" />
+        <classShapeMoniker Id="f3bd30f4-1a10-48ad-b382-794509154ca6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.53125); (6.46875 : 1.53125); (6.46875 : 4.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/ProductImage/ProductImage_Product_ProductImage" />
+      <nodes>
+        <classShapeMoniker Id="38d0eea8-3aaa-4cba-a12e-931cf79422d2" />
+        <classShapeMoniker Id="999e3415-51b1-47f4-a0ca-85df2bc361f5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 5.31814697265625); (3.5 : 5.31814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LuffeyCMSDataContext/ProductPayment/ProductPayment_Product" />
+      <nodes>
+        <classShapeMoniker Id="28eb7a73-dff1-40cf-93b9-78b095535348" />
+        <classShapeMoniker Id="02ab54b4-4632-4eaa-865d-187385af0443" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

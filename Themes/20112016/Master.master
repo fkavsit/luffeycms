@@ -1,0 +1,461 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link rel="icon" type="image/png" href="../Items/Favicon/favicon.png" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css' />
+    
+    <!-- bootstrap styles-->
+    <link href="Styles/bootstrap.min.css" rel="stylesheet" />
+    <!-- google font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800' rel='stylesheet' type='text/css' />
+    <!-- ionicons font -->
+    <link href="Styles/ionicons.min.css" rel="stylesheet" />
+    <!-- animation styles -->
+    <link rel="stylesheet" href="Styles/animate.css" />
+    <!-- custom styles -->
+    <link href="Styles/custom-red.css" rel="stylesheet" id="style" />
+    <!-- owl carousel styles-->
+    <link rel="stylesheet" href="Styles/owl.carousel.css" />
+    <link rel="stylesheet" href="Styles/owl.transitions.css" />
+    <!-- magnific popup styles -->
+    <link rel="stylesheet" href="Styles/magnific-popup.css" />
+
+</head>
+<body id="body">
+    <form id="form1" runat="server">
+
+        <!-- preloader start -->
+
+        <!-- preloader end -->
+        
+        <!-- /END THEME SWITCHER-->
+        <!-- wrapper start -->
+        <div class="wrapper">
+            <!-- header toolbar start -->
+            
+
+
+            <div class="header-toolbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-16 text-uppercase">
+                            <div class="row">
+                                <div class="col-sm-8 col-xs-16">
+                                    <ul id="inline-popups" class="list-inline">
+                                        <li class="hidden-xs"><a href="#">advertisement</a></li>
+                                        <li><a class="open-popup-link" href="#log-in" data-effect="mfp-zoom-in">log in</a></li>
+                                        <li><a class="open-popup-link" href="#create-account" data-effect="mfp-zoom-in">create account</a></li>
+                                        <li><a href="#">About</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-8 col-xs-16">
+                                    <div class="row">
+                                        <div id="weather" class="col-lg-9 col-sm-8 col-xs-16"></div>
+                                        <div id="time-date" class="col-lg-7 col-sm-8 col-xs-16"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- header toolbar end -->
+            <!-- sticky header start -->
+            <div class="sticky-header">
+                <!-- header start -->
+                <div class="container header">
+                    <div class="row">
+                        <div class="col-sm-5 col-md-5 wow fadeInUpLeft animated">
+                            <a class="" href="index-2.html">
+                                <img src="/Items/Logo/logo.png" width="150" height="60" />
+                            </a>
+                        </div>
+                        <div class="col-sm-11 col-md-11 hidden-xs text-right">
+                            <img src="http://placehold.it/468x60" width="468" height="60" alt=""/></div>
+                    </div>
+                </div>
+                <!-- header end -->
+                <!-- nav and search start -->
+                <div class="nav-search-outer">
+                    <!-- nav start -->
+
+                    <nav class="navbar navbar-inverse" role="navigation">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-16">
+                                    <a href="javascript:;" class="toggle-search pull-right"><span class="ion-arrow-expand"></span></a>
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                                        <ul class="nav navbar-nav text-uppercase main-nav ">
+                                            <%= GetMenu() %>
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- nav end -->
+                        <!-- search start -->
+
+                        <%--<div class="search-container ">
+                            <div class="container">
+
+                                <input id="search-bar" placeholder="Type & Hit Enter.." autocomplete="off" />
+
+                            </div>
+                        </div>--%>
+                        <!-- search end -->
+                    </nav>
+                    <!--nav end-->
+                </div>
+                <!-- nav and search end-->
+            </div>
+            <!-- sticky header end -->
+
+            <div class="container">
+
+                <!-- bage header start -->
+                <div class="page-header">
+                    <h1>
+
+                        <asp:Label ID="masterPageTitle" runat="server" Text=""></asp:Label></h1>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li class="active">section page style 1</li>
+                    </ol>
+                </div>
+
+                <!-- bage header end -->
+
+            </div>
+
+            <!-- data start -->
+            <section>
+                <div class="container ">
+                    <div class="row ">
+                        <!-- left sec start -->
+                        
+                        <div class="col-md-11 col-sm-11">
+                            <div class="row">
+                                <asp:ContentPlaceHolder ID="cph_Content" runat="server" />
+
+
+                              
+                            </div>
+                        </div>
+                        <!-- left sec end -->
+                        <!-- right sec start -->
+                        <div class="col-sm-5 hidden-xs right-sec">
+                            <div class="bordered">
+                                <div class="row ">
+                                    <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="50">
+                                        <img class="img-responsive" src="images/ads/336-280-ad.gif" width="336" height="280" alt="" />
+                                        <a href="#" class="sponsored">sponsored advert</a> </div>
+                                    
+                                    <!-- activities start -->
+                                    <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="130">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs nav-justified " role="tablist">
+                                            <li class="active"><a href="#popular" role="tab" data-toggle="tab">popular</a></li>
+
+                                        </ul>
+
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="popular">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a href="#">
+                                                            <div class="row">
+                                                                <div class="col-sm-5 col-md-4">
+                                                                    <img class="img-thumbnail pull-left" src="images/popular/pop-1.jpg" width="164" height="152" alt="" />
+                                                                </div>
+                                                                <div class="col-sm-11 col-md-12">
+                                                                    <h4>Tellus. Phasellus viverra nulla ut metus</h4>
+                                                                    <div class="text-danger sub-info">
+                                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div class="row">
+                                                                <div class="col-sm-5  col-md-4 ">
+                                                                    <img class="img-thumbnail pull-left" src="images/popular/pop-2.jpg" width="164" height="152" alt="" />
+                                                                </div>
+                                                                <div class="col-sm-11 col-md-12">
+                                                                    <h4>The evolution of the apple ..</h4>
+                                                                    <div class="text-danger sub-info">
+                                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div class="row">
+                                                                <div class="col-sm-5  col-md-4 ">
+                                                                    <img class="img-thumbnail pull-left" src="images/popular/pop-3.jpg" width="164" height="152" alt="" />
+                                                                </div>
+                                                                <div class="col-sm-11 col-md-12">
+                                                                    <h4>The evolution of the apple ..</h4>
+                                                                    <div class="text-danger sub-info">
+                                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div class="row">
+                                                                <div class="col-sm-5  col-md-4 ">
+                                                                    <img class="img-thumbnail pull-left" src="images/popular/pop-4.jpg" width="164" height="152" alt="" />
+                                                                </div>
+                                                                <div class="col-sm-11 col-md-12">
+                                                                    <h4>The evolution of the apple ..</h4>
+                                                                    <div class="text-danger sub-info">
+                                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <div class="row">
+                                                                <div class="col-sm-5  col-md-4 ">
+                                                                    <img class="img-thumbnail pull-left" src="images/popular/pop-5.jpg" width="164" height="152" alt="" />
+                                                                </div>
+                                                                <div class="col-sm-11 col-md-12">
+                                                                    <h4>The evolution of the apple ..</h4>
+                                                                    <div class="text-danger sub-info">
+                                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- activities end -->
+                                    <!-- radio start -->
+                                    <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="100">
+                                        <div class="main-title-outer pull-left">
+                                            <div class="main-title">globalnews radio</div>
+                                        </div>
+                                        <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/172078992&amp;color=e74c3c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                                    </div>
+                                    <!-- radio end -->
+                                    <!-- calendar start -->
+                                    <div class="col-sm-16 bt-space wow fadeInUp animated" data-wow-delay="1s" data-wow-offset="50">
+                                        <div class="single pull-left"></div>
+                                    </div>
+                                    <!-- calendar end -->
+                                    <!-- flicker imgs start -->
+
+                                    <!-- flicker imgs end -->
+                                </div>
+                            </div>
+ 
+                       
+                    </div>
+                </div>
+            </section>
+            <!-- data end -->
+            <!-- Footer start -->
+            <footer>
+                <div class="top-sec">
+                    <div class="container ">
+                        <div class="row match-height-container">
+                            <div class="col-sm-6 subscribe-info wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+                                <div class="row">
+                                    <div class="col-sm-16">
+                                        <div class="f-title"><%=KavsitWeb.Company("Name") %> </div>
+                                        <p><%=KavsitWeb.Company("Information") %> </p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-sm-5 popular-tags  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+                                <div class="f-title">popular tags</div>
+                                <ul class="tags list-unstyled pull-left">
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">Science</a></li>
+                                    <li><a href="#">video conferece</a></li>
+                                    <li><a href="#">conferece</a></li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="col-sm-5 recent-posts  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="40">
+                                <div class="f-title">recent posts</div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <img class="img-thumbnail pull-left" src="images/footer-recent/f-recent-1.jpg" width="70" height="70" alt="" />
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <h4>The evolution of the apple ..</h4>
+                                                    <div class="f-sub-info">
+                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-sm-4 ">
+                                                    <img class="img-thumbnail pull-left" src="images/footer-recent/f-recent-2.jpg" width="70" height="70" alt="" />
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <h4>The evolution of the apple ..</h4>
+                                                    <div class="f-sub-info">
+                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <img class="img-thumbnail pull-left" src="images/footer-recent/f-recent-3.jpg" width="70" height="70" alt="" />
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <h4>The evolution of the apple ..</h4>
+                                                    <div class="f-sub-info">
+                                                        <div class="time"><span class="ion-android-data icon"></span>Dec 16 2014</div>
+                                                        <div class="comments"><span class="ion-chatbubbles icon"></span>351</div>
+                                                        <div class="stars"><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star"></span><span class="ion-ios7-star-half"></span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btm-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-16">
+                                <div class="row">
+                                    <div class="col-sm-10 col-xs-16 f-nav wow fadeInDown animated" data-wow-delay="0.5s" data-wow-offset="10">
+                                        <ul class="list-inline ">
+                                            <li><a href="#">Home </a></li>
+                                            <li><a href="#">Business </a></li>
+                                            <li><a href="#">Science </a></li>
+                                            <li><a href="#">Lifestyle </a></li>
+                                            <li><a href="#">Politics </a></li>
+                                            <li><a href="#">Sport </a></li>
+                                            <li><a href="#">short codes</a> </li>
+                                            <li><a href="#">Contact </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-xs-16 copyrights text-right wow fadeInDown animated" data-wow-delay="0.5s" data-wow-offset="10"><%=KavsitWeb.GetFooterDesc() %></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-16 f-social  wow fadeInDown animated" data-wow-delay="1s" data-wow-offset="10">
+                                <ul class="list-inline">
+                                    <li><a href="#"><span class="ion-social-twitter"></span></a></li>
+                                    <li><a href="#"><span class="ion-social-facebook"></span></a></li>
+                                    <li><a href="#"><span class="ion-social-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+
+        </div>
+        <!-- wrapper end -->
+        <!-- jQuery -->
+        <script src="Scripts/jquery-3.1.1.min.js"></script>
+        
+        <!--jQuery easing-->
+        <script src="Scripts/jquery.easing.1.3.js"></script>
+        <!-- bootstrab js -->
+        <script src="Scripts/bootstrap.js"></script>
+        <!--style switcher-->
+        <script src="Scripts/style-switcher.js"></script>
+        <!--wow animation-->
+        <script src="Scripts/wow.min.js"></script>
+        <!-- time and date -->
+        <script src="Scripts/moment.min.js"></script>
+        <!--news ticker-->
+        <script src="Scripts/jquery.ticker.js"></script>
+        <!-- owl carousel -->
+        <script src="Scripts/owl.carousel.js"></script>
+        <!-- magnific popup -->
+        <script src="Scripts/jquery.magnific-popup.js"></script>
+        <!-- weather -->
+        <script src="Scripts/jquery.simpleWeather.min.js"></script>
+        <!-- calendar-->
+        <script src="Scripts/jquery.pickmeup.js"></script>
+        <!-- go to top -->
+        <script src="Scripts/jquery.scrollUp.js"></script>
+        <!-- scroll bar -->
+        <script src="Scripts/jquery.nicescroll.js"></script>
+        <script src="Scripts/jquery.nicescroll.plus.js"></script>
+        <!--masonry-->
+        <script src="Scripts/masonry.pkgd.js"></script>
+        <!--media queries to js-->
+        <script src=Scripts/enquire.js"></script>
+        <!--custom functions-->
+        <script src="Scripts/custom-fun.js"></script>
+
+    </form>
+
+</body>
+</html>
+
+
+

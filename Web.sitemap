@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Panel/kavsit.aspx" title="Anasayfa"  description="Anasayfa">
+    <siteMapNode url="~/Panel/catagoryAdd.aspx" title="Kategori Ekle"  description="" />
+    <siteMapNode url="~/Panel/catagorys.aspx" title="Kategoriler"  description="Kategoriler" />
+    <siteMapNode url="~/Panel/contactUs.aspx" title="Bize Ulaşın"  description="Bize Ulaşın" />
+    <siteMapNode url="~/Panel/library.aspx" title="Kütüphane"  description="Kütüphane" />
+    <siteMapNode url="~/Panel/libraryAdd.aspx" title="Kütüphaneye Ekle"  description="Kütüphaneye Ekle" />
+    <siteMapNode url="~/Panel/news.aspx" title="Haberler"  description="Haberler" />
+    <siteMapNode url="~/Panel/newsAdd.aspx" title="Haber Ekle"  description="Haber Ekle" />
+    <siteMapNode url="~/Panel/newsEdit.aspx" title="Haber Düzenle"  description="Haber Düzenle" />
+    <siteMapNode url="~/Panel/Settings.aspx" title="Ayarlar"  description="Ayarlar" />
+    <siteMapNode url="~/Panel/sliderAdd.aspx" title="Slider Ekle"  description="Slider Ekle" />
+    <siteMapNode url="~/Panel/sliders.aspx" title="Sliderlar"  description="Sliderlar" />
+    <siteMapNode url="~/Panel/subcatagoryAdd.aspx" title="Alt Kategori Ekle"  description="Alt Kategori Ekle" />
+    
+
+  </siteMapNode>
+</siteMap>

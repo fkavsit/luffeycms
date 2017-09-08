@@ -1,0 +1,47 @@
+===============================================
+	Ýsmi Deðiþen Tablolar
+===============================================
+	catagory      -> NewsCategory
+	news          -> News
+	catagoryName  -> categoryName
+	contact       -> Contact
+	slider        -> Slider
+	library       -> Library
+	Comment       -> NewsComment
+
+===============================================
+	Ýsmi Deðiþen Alanlar
+===============================================
+	Seo
+	seoTitle       -> Title
+	seoMeta        -> Meta
+	seoMetaKeys    -> MetaKey
+	------------------------
+	Slider
+	sliderImage    -> Image
+	sliderSira     -> Queue
+	sliderWrite    -> Text
+	------------------------
+	Page	
+	pageTitle      -> Title
+	pageContent    -> Content
+	pageSeoTitle   -> SeoTitle
+	pageSeoMeta    -> SeoMeta
+	pageSeoMetaKey -> SeoMetaKey
+	pageUrl        -> Url
+
+===============================================
+	Silinen Tablolar
+===============================================
+
+	Settings_HomePage *Silindi*
+	Sub_Catagory      *Silindi*
+
+=============================================
+	Silinen Alanlar
+=============================================
+
+	Slider            *Silindi*
+	sliderWidth       *Silindi*
+	sliderWidth       *Silindi*
+	
