@@ -14,7 +14,7 @@
         <!-- Haber Kategori -->
         <%#Eval("CategoryID") %>
         <!-- Haber Resmi -->
-		<img src="/Images/newsImage/<%#Eval("Image") %>"/>
+		<img src="/Images/newsImage/<%#Eval("Image") %>" style="width:100%"/>
 		
         
         <!-- Haber Kısa Özeti -->
